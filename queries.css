@@ -183,4 +183,11 @@
     width: 100%;
     height: auto;
   }
+
+  .roda-pe button {
+    padding: 8px 15px;
+    margin: 5px;
+    font-size: 15px;
+    color: #fff;
+  }
 }
