@@ -71,6 +71,10 @@
     margin: 10px auto;
   }
 
+  .form-container h1 > span {
+    margin-bottom: 15px;
+  }
+
   .form-container .inner-wrap {
     padding: 10px;
     margin-bottom: 5px;
@@ -87,6 +91,9 @@
 
   .form-container .secao-form span {
     display: none;
+  }
+  .img-03 {
+    height: 500px;
   }
 }
 
