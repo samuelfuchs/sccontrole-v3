@@ -243,8 +243,9 @@ ul {
 /* ------------------------------------------------------ */
 
 .sessao-contato {
-  padding: 40px;
+  padding: 10px;
 }
+
 .form-container {
   width: auto;
   padding: 30px;
@@ -256,11 +257,6 @@ ul {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.13);
   -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-}
-
-.form-container {
-  margin: 0 auto;
-  padding: 20px;
 }
 
 .form-container h1 > span {

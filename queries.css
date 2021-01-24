@@ -15,6 +15,7 @@
   h3 {
     font-size: 18px;
   }
+  /* index.html */
 
   .titulo-texto h1 {
     font-size: 25px;
@@ -64,6 +65,28 @@
   }
   .endereco {
     height: 450px;
+  }
+  /* contato.html */
+  .form-container {
+    margin: 10px auto;
+  }
+
+  .form-container .inner-wrap {
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+
+  .inner-wrap-text {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .form-container .secao-form {
+    display: none;
+  }
+
+  .form-container .secao-form span {
+    display: none;
   }
 }
 
