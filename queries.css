@@ -69,19 +69,29 @@
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
-  .titulo-texto h1 {
-    font-size: 20px;
+  .conteudo {
+    padding: 0 15px;
   }
+
+  .titulo-texto h1 {
+    font-size: 26px;
+    letter-spacing: 1.5px;
+  }
+
+  .titulo-texto h2 {
+    letter-spacing: 1px;
+  }
+
   h1 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   h2 {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   h3 {
-    font-size: 12px;
+    font-size: 16px;
   }
   .grid {
     display: grid;
@@ -90,6 +100,21 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+  }
+
+  .sobre-nos h3 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .sobre-nos {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    height: auto;
+  }
+
+  ul {
+    font-size: 17px;
   }
 
   .endereco img {
@@ -102,5 +127,60 @@
 
   .roda-pe {
     overflow: clip;
+  }
+  .roda-pe .grid {
+    margin-top: 20px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .roda-pe img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  .endereco .grid {
+    margin-top: 20px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* grid areas */
+
+  .endereco {
+    text-align: center;
+  }
+  .endereco-endereco-titulo {
+    grid-area: endereco-endereco-titulo;
+  }
+
+  .endereco-horarios-titulo {
+    grid-area: endereco-horarios-titulo;
+  }
+
+  .endereco-horarios {
+    grid-area: endereco-horarios;
+  }
+
+  .endereco-imagem {
+    grid-area: endereco-imagem;
+  }
+
+  .endereco-social {
+    grid-area: endereco-social;
+  }
+  .endereco .grid {
+    grid-template-areas:
+      'endereco-endereco-titulo'
+      'endereco-endereco'
+      'endereco-horarios-titulo'
+      'endereco-horarios'
+      'endereco-imagem'
+      'endereco-social';
+  }
+  .endereco img {
+    width: 100%;
+    height: auto;
   }
 }
