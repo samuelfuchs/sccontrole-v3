@@ -1,0 +1,106 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .titulo-texto h1 {
+    font-size: 25px;
+  }
+
+  .endereco img {
+    width: auto;
+    height: 200px;
+    border-radius: 8px;
+  }
+
+  .social ul li a {
+    font-size: 18px;
+  }
+
+  .social ul li .telefone:hover,
+  .social ul li .whatsapp:hover,
+  .social ul li .facebook:hover,
+  .social ul li .instagram:hover {
+    font-size: 20px;
+  }
+
+  .roda-pe h3 {
+    text-align: left;
+  }
+
+  /* nav */
+  .navegation .conteudo {
+    padding: 0;
+  }
+
+  .navegation img {
+    height: 60px;
+    width: auto;
+  }
+
+  .navegation a {
+    padding: 5px 10px;
+  }
+
+  .navegation.active {
+    opacity: 1;
+  }
+
+  .navegation.active .container {
+    padding: 10px 0;
+  }
+  .endereco {
+    height: 450px;
+  }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+  .titulo-texto h1 {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .endereco img {
+    height: 100px;
+  }
+
+  .endereco {
+    height: auto;
+  }
+
+  .roda-pe {
+    overflow: clip;
+  }
+}
