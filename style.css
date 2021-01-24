@@ -387,13 +387,23 @@ textarea {
 .fa-facebook-square {
   color: #4267b2;
 }
+.fa-facebook-square:hover {
+  color: #86a6e6;
+}
 
 .fa-instagram {
   color: #d62222;
 }
+.fa-instagram:hover {
+  color: #e95858;
+}
 
 .wpp {
   color: #25d366;
+}
+
+.wpp:hover {
+  color: #6ff19f;
 }
 
 .fa-phone-square-alt {
@@ -407,12 +417,17 @@ textarea {
 .social ul li a {
   color: #fff;
   letter-spacing: 1px;
-}
-
-.social ul li a {
   text-decoration: none;
   list-style: none;
   font-size: 20px;
+  transition: all 0.2s ease;
+}
+
+.social ul li .telefone:hover,
+.social ul li .whatsapp:hover,
+.social ul li .facebook:hover,
+.social ul li .instagram:hover {
+  font-size: 30px;
 }
 
 /* footer */
