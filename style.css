@@ -338,15 +338,6 @@ textarea {
   resize: vertical;
 }
 
-.form-container .privacy-policy {
-  float: right;
-  width: 250px;
-  font: 12px Arial, Helvetica, sans-serif;
-  color: #4d4d4d;
-  margin-top: 10px;
-  text-align: right;
-}
-
 /* enderecos */
 .endereco {
   padding-top: 60px;
