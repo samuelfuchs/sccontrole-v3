@@ -205,7 +205,8 @@ button a {
 
 .img-03 {
   height: 700px;
-  background-image: url(./img/apartment-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+  url(./img/apartment-01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -275,6 +276,17 @@ ul {
   display: block;
   color: rgb(0, 0, 0);
   font-weight: 700;
+}
+
+#status.success {
+  background-color: rgb(211,250,153);
+  animation: status 4s ease forwards;
+}
+
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: #fff;
+  animation: status 4s ease forwards;
 }
 
 .form-container input[type='text'],

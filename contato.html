@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="./queries.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="icon" href="./img/only-logo.jpg">
-    <title>SCControle de Pragas e Serviços de Conservação</title>
+    <title>SCControle de Pragas e Servi&ccedil;os de Conserva&ccedil;&atilde;o</title>
 </head>
 <body>
 
@@ -15,47 +15,49 @@
         <div class="conteudo">
             <a href="./index.html"><img src="./img/logo.jpeg" alt="logomarca"></a>
             <ul>
-                <li><a href="./index.html">Início</a></li>
+                <li><a href="./index.html">In&iacute;cio</a></li>
                 <li><a href="./contato.html">Contato</a></li>
             </ul>
         </div>
     </nav>
 <!-- Whatsapp Float -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="https://api.whatsapp.com/send?phone=556181142009&text=Ola%20Tenho%20interesse%20nos%20seus%20servicos." class="o-wpp" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=5561985207551&text=Ola%20Tenho%20interesse%20nos%20seus%20servicos." class="o-wpp" target="_blank">
     <i class="fa fa-whatsapp meu-wpp"></i></a>
     <section class="semiCircle"></section>
 
 <section class="sessao-contato">
     <div class="conteudo form-container">
-        <h1>Fale conosco <span>Faca uma pergunta ou peca um orcamento</span></h1>
-        <form action="https://formspree.io/f/xdopyrlp" method="POST" id="my-form">
+        <h1>Fale conosco <span>Fa&ccedil;a uma pergunta ou pe&ccedil;a um or&ccedil;amento</span></h1>
+        <form action="https://formspree.io/f/mnqoweqb" method="POST" id="my-form">
             <div class="secao-form"><span>1</span>Nome e sobrenome</div>
             <div class="inner-wrap">
-                <label>Nome<input type="text" name="field1" /></label>
-                <label>Sobrenome<input type="text" name="filed1" /></label>
+                <label>Nome<input type="text" name="nome" required/></label>
+                <label>Sobrenome<input type="text" name="sobrenome" required /></label>
             </div>
 
             <div class="secao-form"><span>2</span>Email & celular</div>
             <div class="inner-wrap">
-                <label>Email <input type="email" name="field3" /></label>
-                <label>Celular ou telefone <input type="text" name="field4" /></label>
+                <label>Email <input type="email" name="email" id="email" /></label>
+                <label>Celular ou telefone <input type="text" name="telefone" id="telefone" onkeypress="mask(this, mphone);" onblur="mask(this, mphone);" required /></label>
             </div>
 
             <div class="secao-form"><span>3</span>Mensagem</div>
                 <div class="inner-wrap-text">
-                <label>Digite a sua mensagem aqui:<textarea name="message" id="message" cols="30" rows="10"></textarea></label>
+                <label>Digite a sua mensagem aqui:<textarea name="mensagem" id="message" cols="30" rows="10" required></textarea></label>
             </div>
 
             <div class="sessao-butao">
-                <button type="submit">Enviar</button>
-                <div class="checkbox">
-                    <input type="checkbox" name="field7">Você concorda com nossos Termos e Política.
+                <div class="inner-wrap">
+                    <span>
+                        * Voc&ecirc; concorda com nossos Termos e Pol&iacute;tica.
+                    </span>
                 </div>
+                <button type="submit">Enviar</button>
             </div>
 
         </form>
-        <!-- <div id="status"></div> -->
+        <div id="status"></div>
     </div>
 </section>
 
@@ -67,14 +69,13 @@
                 Ambiente limpo e protegido
             </h1>
             <h2>
-                Mantenha sua família segura e feliz <br>
+                Mantenha sua fam&iacute;lia segura e feliz <br>
                 Ambientes livres de insetos sem afetar sua rotina de trabalho
             </h2>
         </div>
     </div>
 
 </section>
-
 <section class="endereco">
     <div class="conteudo">
         <h1>
@@ -82,15 +83,15 @@
         </h1>
         <div class="grid">
             <h2 class="endereco-endereco-titulo">
-                Endereço:
+                Endere&ccedil;o:
             </h2>
             <h2 class="endereco-horarios-titulo">
-                Horários de funcionamento:
+                Hor&aacute;rios de funcionamento:
             </h2>
 
             <p class="endereco-endereco">
                 QOF CONJ H LOTE 02 SALA 01 <br>
-                Candangolândia , DF 71727508
+                Candangol&atilde;ndia , DF 71727508
             </p>
     
             <p class="endereco-horarios">
@@ -111,7 +112,7 @@
                         <a href="https://www.facebook.com/SpockTheHusky" class="facebook"><i class="fab fa-facebook-square"></i> Facebook</a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/zongabr/" class="instagram"><i class="fab fa-instagram"></i> Instagram</a>
+                        <a href="https://www.instagram.com/sc_controle/" class="instagram"><i class="fab fa-instagram"></i> Instagram</a>
                     </li>
                 </ul>
 
